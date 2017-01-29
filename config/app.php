@@ -177,6 +177,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Clusterpoint\ClusterpointServiceProvider::class,
+        'Akaramires\FullContact\FullContactServiceProvider',
+
     ],
 
     /*
@@ -225,7 +228,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'FullContact' => Akaramires\FullContact\FullContactFacade::class
     ],
 
 ];

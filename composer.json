@@ -6,6 +6,8 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "clusterpoint/laravel-clusterpoint": "^4.0",
+        "akaramires/laravel-fullcontact" : "dev-master",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0"
     },
